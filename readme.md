@@ -11,7 +11,8 @@ Lancement dans 2 containers Docker
 Container partie serveur : NodeJS / JavaScript (pas de TypeScript :))
 Container partie client : Framework au choix (Angular(JS), VueJS, React, autre, ou rien)
 Ne pas pousser tout le projet en un unique commit. L'historique Git doit révéler ta progression et tes axes de réflexion.
-Héberger le code source sur un repository Gitlab privé et nous donner accès (stephane@travelcar.com / oussama@travelcar.com / guillaume@travelcar.com / mathieu@travelcar.com) /!\ Vérifier l’accès en lecture du code
+
+
 Déployer l'image docker sur un environnement AWS OU GCP et indiquer l'URL de déploiement où nous pouvons voir le résultat.
 Le projet doit pouvoir être lancé en quelques lignes de commande sur un poste de développement grâce à docker.
 Indiquer le temps consacré au projet.
