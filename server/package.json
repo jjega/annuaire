@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "connecteur API Marvel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "dev": "PORT=3000 API_KEY=d33a7ab268760aef469d7602670a217c PRIVATE_KEY=382c05b4e14f681fb7b804704036d686401f37bf nodemon ./bin/www"
+  },
+  "author": "Jonathan EGA",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}

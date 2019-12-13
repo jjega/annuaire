@@ -1,0 +1,11 @@
+img {
+  max-width: 100%;
+}
+.hero {
+  width: calc(100%/5);
+  display: inline-block;
+}
+
+.hero div {
+  height: 25px;
+}

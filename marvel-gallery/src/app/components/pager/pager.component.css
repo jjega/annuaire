@@ -1,0 +1,9 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.pagination button {
+  display: inline-block;
+}

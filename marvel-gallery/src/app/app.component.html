@@ -1,0 +1,4 @@
+<app-pager [page]=page [max_page]=max_page (new_page)="onPageSelect($event)"></app-pager>
+<div  class="list-hero">
+  <app-character *ngFor="let character of characters" [character]="character"></app-character>
+</div>
