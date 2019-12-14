@@ -1,0 +1,10 @@
+FROM node:latest
+MAINTAINER Jonathan EGA
+
+COPY ./server /var/www/htm/
+
+WORKDIR /var/www/htm/server
+
+RUN npm i
+RUN npm i -g nodemon
+CMD [ "npm", "run", "dev" ]
